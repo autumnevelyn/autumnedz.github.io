@@ -81,5 +81,5 @@ const links = [
 
 const getRandomLink = () =>{
   const randomIndex = Math.floor(Math.random() * links.length)
-  document.getElementById('69').innerHTML = links[randomIndex]
+  document.body.innerHTML = links[randomIndex]
 }
